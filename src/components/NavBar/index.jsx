@@ -40,7 +40,7 @@ export default function NavBar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mx-auto">
-              <Nav.Link className="active" href="Grid">Home</Nav.Link>
+              <Nav.Link active className="active" href="Grid">Home</Nav.Link>
               <NavDropdown title="About Us" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">

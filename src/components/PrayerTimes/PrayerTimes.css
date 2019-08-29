@@ -1,45 +1,10 @@
-.top_time_circle {
-  width: auto;
-  position: relative;
-  padding: 2px 0px;
-}
-
-.top_time_circle ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px;
-}
-.top_time_circle ul li span,
-.top_time_circle ul li a {
-  display: block;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: normal;
-  text-align: center;
-}
-a {
-  text-decoration: none;
-}
-.top_time_circle ul li {
-  height: 76px;
-  width: 76px;
-  text-align: center;
-  float: left;
-  border-radius: 100%;
-  border: 1px solid #fff;
-  padding: 20px;
-  margin-left: 20px;
-  list-style: none;
-}
-
 .time-div {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: transparent;
 }
 
 .time-div ul {
@@ -60,9 +25,10 @@ a {
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 30px;
-  border: 1px solid #fff;
+  border: 2px solid rgb(219, 219, 219);
   border-radius: 100%;
   text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.253), rgba(0, 0, 0, 0.301));
 }
 
 .time-div .text {
@@ -72,6 +38,7 @@ a {
   color: white;
   font-weight: bolder;
   letter-spacing: 2px;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 .time-div .time {
@@ -80,4 +47,41 @@ a {
   text-transform: uppercase;
   color: rgb(250, 235, 217);
   padding-top: 5px;
+}
+
+/*--------------------------------------------------------------------------------------*/
+.clock{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:3px;
+}
+
+.clock .date{
+    font-size: 1.8em;
+    font-weight: bold;
+     color: white;
+     text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+.clock .time{
+    margin-top:5px;
+    font-size: 2.2em;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman';
+}
+
+.clock .time span{
+    background: black;
+    color: white;
+    border-radius: 6px;
+    padding: 2px 5px 3px 5px;
+    border: 1px solid white;
 }
