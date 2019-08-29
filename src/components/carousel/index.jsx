@@ -1,3 +1,4 @@
+//Carousel Component 
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Prayertimes from "../PrayerTimes";
@@ -11,7 +12,6 @@ export default function MyCarousel() {
       </div>
       
       <Carousel >
-        
         <Carousel.Item>
           <img
             className="d-block mw-100"
