@@ -1,3 +1,4 @@
+//PrayerTimes and Clock component
 import React from "react";
 import "./PrayerTimes.css";
 
